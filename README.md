@@ -1,8 +1,8 @@
 # laravel8Docker_test
 API for users
 
+[API Documentation (Postman)](https://documenter.getpostman.com/view/11193915/UVyytYpy)
 # Setup Project
-+ Unordered sub-list. 
 
 requirements:
 + Already install docker for desktop (https://www.docker.com/get-started/) and the app is running.
@@ -22,6 +22,10 @@ Project Settings:
 + rename .env.example to .env file
 
   Inside .env file change database setting to be same as mysql setting inside docker-compose.yml and set the DB_HOST to mysql.
+ 
++ run command: `docker-compose exec php php /var/www/html/artisan key:generate`.
+
++ Do the database migration with command: `docker-compose exec php php /var/www/html/artisan migrate`.
 
 + To turn off docker, run command `docker-compose down`.
 
