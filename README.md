@@ -25,6 +25,8 @@ Project Settings:
  
 + run command: `docker-compose exec php php /var/www/html/artisan key:generate`.
 
++ Do the database migration with command: `docker-compose exec php php /var/www/html/artisan migrate`.
+
 + To turn off docker, run command `docker-compose down`.
 
 # Laravel command
