@@ -15,7 +15,7 @@ Project installation:
 
 Project Settings:
 
-+ To check list of cantainers, run cammand: `docker container ls`.
++ To check list of containers, run command: `docker container ls`.
 
   To Enter mysql cli, run command: `docker exec -it mysql bash `.
 
