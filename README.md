@@ -22,6 +22,8 @@ Project Settings:
 + rename .env.example to .env file
 
   Inside .env file change database setting to be same as mysql setting inside docker-compose.yml and set the DB_HOST to mysql.
+ 
++ run command: `docker-compose exec php php /var/www/html/artisan <laravel-command> key:generate`.
 
 + To turn off docker, run command `docker-compose down`.
 
