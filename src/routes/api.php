@@ -31,15 +31,3 @@ Route::group(['middleware' => ['auth:sanctum']], function () {
 // Public Routes
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
-
-
-
-// Routes List
-/**
-* Route::post('/users', [UserController::class, 'store']);
-* Route::get('/users', [UserController::class, 'index']);
-* Route::get('/users/{id}', [UserController::class, 'show']);
-* Route::get('/users/search/{name}', [UserController::class, 'search']);
-* Route::put('/users/{id}', [UserController::class, 'update']);
-* Route::delete('/users/{id}', [UserController::class, 'destroy']);
-*/
